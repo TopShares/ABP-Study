@@ -1,0 +1,62 @@
+技术栈：
+.NET CORE + Angular
+
+环境准备
+Visual Studio 2017及以上
+.NET SDK 2.X
+SQL SERVER 2012及以上
+MySQL 8.0.X
+
+必备条件
+nuget 配置
+首先设置开发环境，打开nuget程序包管理器，添加一个nuget源。
+https://api.nuget.org/v3/index.json
+
+# 使用MySQL
+
+https://www.cnblogs.com/donaldtdz/p/8149598.html
+
+# 程序包控制台选择'XXX.EntityFramworkCore',输入 
+# Install-Package MySql.Data.Entity   // 安装MySQL.Data.Entity组件
+
+
+
+XXX.Web.Host  设置为启动项
+
+
+
+Add-Migration "Initial"
+
+Update-Database本月工作项及进度’和‘下月的计划工作项’
+
+
+
+
+# MySQL8.0登录提示caching_sha2_password问题解决方法
+https://blog.csdn.net/maoxinwen1/article/details/88629313
+
+
+
+
+# 前端 Angular JS
+
+# 然后再安装
+nodejs 6.9+ with npm 3.10+
+Typescript 2.0+
+
+
+
+# Open a command prompt, navigate to the angular folder which contains the *.sln file and run the following command to restore the npm packages:
+
+npm install
+# Note that the npm install may show some warning messages. This is not related to our solution and generally it's not a problem. The solution can also configured to work with yarn and we recommend you use it if it is available on your computer.
+
+#Run The Application
+#In your opened command prompt, run the following command:
+
+npm start   或者使用  npm run hmr
+
+POST 
+http://localhost:21021/api/TokenAuth/Authenticate
+
+{"userNameOrEmailAddress":"admin","password":"123qwe","rememberClient":false}
