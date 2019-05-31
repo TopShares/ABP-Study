@@ -14,13 +14,6 @@ https://api.nuget.org/v3/index.json
 
 # 使用MySQL
 
-https://www.cnblogs.com/donaldtdz/p/8149598.html
-
-# 程序包控制台选择'XXX.EntityFramworkCore',输入 
-# Install-Package MySql.Data.Entity   // 安装MySQL.Data.Entity组件
-
-
-
 XXX.Web.Host  设置为启动项
 
 
@@ -59,4 +52,10 @@ npm start   或者使用  npm run hmr
 POST 
 http://localhost:21021/api/TokenAuth/Authenticate
 
-{"userNameOrEmailAddress":"admin","password":"123qwe","rememberClient":false}
+
+
+
+
+
+
+https://www.cnblogs.com/wuhuacong/p/10929889.html
