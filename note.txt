@@ -12,6 +12,10 @@ nuget 配置
 首先设置开发环境，打开nuget程序包管理器，添加一个nuget源。
 https://api.nuget.org/v3/index.json
 
+名称：TencentCloud
+https://mirrors.cloud.tencent.com/nuget
+
+
 # 使用MySQL
 
 XXX.Web.Host  设置为启动项
@@ -49,7 +53,7 @@ npm install
 
 npm start   或者使用  npm run hmr
 
-POST 
+POST
 http://localhost:21021/api/TokenAuth/Authenticate
 
 
@@ -68,7 +72,7 @@ http://localhost:21021/api/TokenAuth/Authenticate
 
 Default prject: src\*****.EntityFrameworkCore
 Update-Database –Verbose
-  
+
 
 
 
@@ -76,8 +80,8 @@ Update-Database –Verbose
 
 
 # nodejs
-npm config set registry https://registry.npm.taobao.org 
-npm config get registry 
+npm config set registry https://registry.npm.taobao.org
+npm config get registry
 
 
 npm install
