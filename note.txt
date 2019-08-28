@@ -71,6 +71,10 @@ http://localhost:21021/api/TokenAuth/Authenticate
 
 
 Default prject: src\*****.EntityFrameworkCore
+
+
+Add-Migration "Initial"
+
 Update-Database –Verbose
 
 
@@ -85,8 +89,7 @@ npm config get registry
 
 
 npm install
-npm irun serve
-
+npm start
 
 默认中文
 Localization\SourceFiles\NewProject-zh-Hans.xml
